@@ -1,8 +1,7 @@
 To define the dimensions of a triple backtick code block using HTML, you can wrap the code block in a `div` element and apply CSS styles to set the width and height.
 
 Here's an example:
-```html
-<div style="width: 400px; height: 200px; overflow-y: auto; padding: 10px; border: 1px solid #ddd; background-color: #f0f0f0;">
+```html <div style="width: 400px; height: 200px; overflow-y: auto; padding: 10px; border: 1px solid #ddd; background-color: #f0f0f0;">
 ```bash
 your code here
 ````
