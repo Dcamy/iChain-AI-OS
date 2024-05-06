@@ -4,7 +4,7 @@ Here are a few ways to do it:
 
 **Method 1: Using `div` with a fixed width**
 ````
-<div style="width: 400px;">
+<div style="width: 40px;">
 ```
 your code here
 ````
@@ -13,7 +13,7 @@ your code here
 
 **Method 2: Using a table**
 ````
-<table><tr><td style="width: 400px;">
+<table><tr><td style="width: 40px;">
 ```
 your code here
 ````
@@ -23,7 +23,7 @@ your code here
 **Method 3: Using a Markdown extension (e.g., Markdown Extra)**
 You can use a Markdown extension like Markdown Extra, which allows you to specify a width and height for a code block using the following syntax:
 ````
-{ width: 400px }
+{ width: 40px }
 your code here
 ````
 Note that this method requires the Markdown parser to support Markdown Extra.
