@@ -1,9 +1,15 @@
 To define the dimensions of a triple backtick code block using HTML, you can wrap the code block in a `div` element and apply CSS styles to set the width and height.
 
 Here's an example:
-```html <div style="width: 400px; height: 200px; overflow-y: auto; padding: 10px; border: 1px solid #ddd; background-color: #f0f0f0;">
+```html <div style="width: 40px; height: 20px; overflow-y: auto; padding: 10px; border: 1px solid #ddd; background-color: #f0f0f0;">
 ```bash
 your code here
+* `width: 400px` sets the width of the code block to 400 pixels.
+* `height: 200px` sets the height of the code block to 200 pixels.
+* `overflow-y: auto` allows the code block to scroll vertically if the content exceeds the specified height.
+* `padding: 10px` adds some padding around the code block.
+* `border: 1px solid #ddd` adds a light gray border around the code block.
+* `background-color: #f0f0f0` sets a light gray background color.
 ````
 </div>
 ```
