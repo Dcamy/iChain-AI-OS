@@ -1,3 +1,36 @@
+By default, a triple backtick code block in a Markdown (.md) file will take up the full width of the container. However, you can use HTML to limit the width of the code block.
+
+Here are a few ways to do it:
+
+**Method 1: Using `div` with a fixed width**
+````
+<div style="width: 400px;">
+```
+your code here
+````
+</div>
+````
+
+**Method 2: Using a table**
+````
+<table><tr><td style="width: 400px;">
+```
+your code here
+````
+</td></tr></table>
+````
+
+**Method 3: Using a Markdown extension (e.g., Markdown Extra)**
+You can use a Markdown extension like Markdown Extra, which allows you to specify a width and height for a code block using the following syntax:
+````
+{ width: 400px }
+your code here
+````
+Note that this method requires the Markdown parser to support Markdown Extra.
+
+Keep in mind that these methods may not work in all Markdown parsers or rendering engines, so your mileage may vary.
+
+
 <h1 align="center">
 <img src='./doc/icon.png' width='30'>
 <span>Chatbox</span>
