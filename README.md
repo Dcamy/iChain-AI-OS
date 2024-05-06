@@ -1,25 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <style>
-        /* Add styles to create a small, scrollable code box */
-        .code-box {
-            width: 500px;      /* Set your preferred width */
-            height: 300px;     /* Set your preferred height */
-            overflow: auto;    /* Enable scrolling */
-            border: 1px solid #ddd;
-            padding: 10px;
-            background-color: #f9f9f9;
-        }
-    </style>
-</head>
-<body>
+<style>
+/* Add styles to create a small, scrollable code box */
+.code-box {
+    width: 500px;   /* Set your preferred width */
+    height: 300px;  /* Set your preferred height */
+    overflow: auto; /* Enable scrolling */
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+</style>
 
-<!-- Add the scrollable code box -->
 <div class="code-box">
 <pre>
 <code>
-# Add your code here
+# Your code here
 def hello_world():
     print("Hello, World!")
 
@@ -28,11 +22,47 @@ if __name__ == "__main__":
 </code>
 </pre>
 </div>
+The screenshot shows how the GitHub markdown preview appears with code. If you aim to add scrollable code within a `.md` file using GitHub's inline HTML feature while maintaining a specific width and height, you can adapt the following template:
 
-</body>
-</html>
+### Example Markdown with HTML and CSS
 
+```markdown
+<style>
+/* Add styles to create a small, scrollable code box */
+.code-box {
+    width: 500px;   /* Set your preferred width */
+    height: 300px;  /* Set your preferred height */
+    overflow: auto; /* Enable scrolling */
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+</style>
 
+<div class="code-box">
+<pre>
+<code>
+# Your code here
+def hello_world():
+    print("Hello, World!")
+
+if __name__ == "__main__":
+    hello_world()
+</code>
+</pre>
+</div>
+```
+
+### How to Implement:
+
+1. **Add the Above Code:**
+   - Copy this block into your Markdown file, then save it.
+   - Adjust the `width` and `height` values as desired to fit the contents.
+
+2. **Verify Preview:**
+   - Check the file's preview to ensure that the scrollable code box appears as intended.
+
+**Note:** While GitHub renders the HTML in `.md` files, a copy button or JavaScript-based interaction isn't supported. Users will need to manually copy the code snippets.
 
 <h1 align="center">
 <img src='./doc/icon.png' width='30'>
